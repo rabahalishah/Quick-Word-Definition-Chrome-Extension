@@ -3,6 +3,14 @@
   "name": "Quick Word Definition",
   "version": "1.0",
   "description": "Stop interrupting your reading. Get instant word definitions while reading - just right-click!",
+  "icons": {
+    "16": "assets/icon16.png",
+    "19": "assets/icon19.png",
+    "32": "assets/icon32.png",
+    "38": "assets/icon38.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
   "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
   "background": {
     "service_worker": "dist/background.bundle.js"
