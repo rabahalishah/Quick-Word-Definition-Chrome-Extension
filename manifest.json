@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Word Definition",
+  "version": "1.0",
+  "description": "Stop interrupting your reading. Get instant word definitions while reading - just right-click!",
+  "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "dist/background.bundle.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.bundle.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
