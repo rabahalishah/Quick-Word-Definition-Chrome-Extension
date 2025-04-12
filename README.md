@@ -23,7 +23,7 @@ Follow the steps below to clone and run the extension locally on your browser:
 
 ```bash
 git clone https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension.git
-cd quick-word-definition-tool
+cd Quick-Word-Definition-Chrome-Extension
 ```
 ### 2. Load Extension in Chrome
 - Open Chrome and go to chrome://extensions/
@@ -48,22 +48,22 @@ We welcome contributions from the community! This chrome extension was just crea
 room of features which we can add in the chrome extension. I found this extension really helpful so I decided to make it open source and scale this extenion in open on Github with the help of other contributors. If you have found this
 project helpful and want to contribute then Read below to learn how you can take part in improving this chrome extension.
 
-## [Code of Conduct]():
-Please read the Code of Conduct
+## [Code of Conduct](https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension/blob/main/CODE_OF_CONDUCT.md):
+Please read the [Code of Conduct](https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension/blob/main/CODE_OF_CONDUCT.md)
 
-## [Contributing]()
-Thank you for showing your interest in contributing to Quick Word Definition Tool. Here is full [Contribution Guide]() which we you read and follow in order to contribute.
+## [Contributing](https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension/blob/main/CONTRIBUTING.md)
+Thank you for showing your interest in contributing to Quick Word Definition Tool. Here is full [Contribution Guide](https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension/blob/main/CONTRIBUTING.md) which we you read and follow in order to contribute.
 
 ## Tips for a Great Contribution
 - If you’re fixing a bug, mention the issue number in your PR.
 - Keep pull requests small and focused on one feature/fix.
 - Update the README or documentation if necessary.
-- Be respectful in all communications — see our [Code of Conduct]().
+- Be respectful in all communications — see our [Code of Conduct](https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension/blob/main/CODE_OF_CONDUCT.md).
 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/rabahalishah/Quick-Word-Definition-Chrome-Extension/blob/main/LICENSE.md).
 
 
 ## 💬 Feedback & Support
