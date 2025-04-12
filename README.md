@@ -2,6 +2,8 @@
 
 A lightweight and handy Chrome extension that helps you find word definitions instantly while reading articles, blogs, PDFs, or web content. Just **right-click** on any word and get its **meaning, example sentences, pronunciation, phonetics, and more** — all in a clean popup without leaving your current page!
 
+![qwd-tool](https://github.com/user-attachments/assets/73724ff3-4d81-46f3-8651-c5b3da8bf17c)
+
 
 ## 🚀 Features
 
