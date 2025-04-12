@@ -79,5 +79,5 @@ If you like this project, consider giving it a ⭐️ — it motivates us to kee
 ## 🧑‍💻 Author
 
 **Rabah Ali Shah**  
-Frontend Engineer @ Xylexa Inc.  
+Associate Software Engineer @ Xylexa Inc.  
 [LinkedIn](https://www.linkedin.com/in/rabahalishah/) • [GitHub](https://github.com/rabahalishah)
