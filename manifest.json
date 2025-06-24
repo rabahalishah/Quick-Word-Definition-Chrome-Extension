@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Quick Word Definition",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Stop interrupting your reading. Get instant word definitions while reading - just right-click!",
   "icons": {
     "16": "assets/icons16.png",
@@ -10,7 +10,7 @@
     "48": "assets/icons48.png",
     "128": "assets/icons128.png"
   },
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": ["contextMenus", "activeTab", "scripting"],
   "background": {
     "service_worker": "dist/background.bundle.js"
   },
@@ -20,5 +20,13 @@
       "js": ["dist/content.bundle.js"],
       "run_at": "document_idle"
     }
-  ]
+  ],
+  "commands": {
+    "define-selected-word": {
+      "suggested_key": {
+        "default": "Ctrl+Q"
+      },
+      "description": "Define selected word"
+    }
+  }
 }

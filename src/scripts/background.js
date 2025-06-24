@@ -45,3 +45,27 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     sendContentToContent(); // Call the function to get and use the tab ID
   }
 });
+
+// Handle Ctrl+Q command
+chrome.commands.onCommand.addListener(async (command) => {
+  if (command === "define-selected-word") {
+    let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (tab?.id) {
+      chrome.scripting.executeScript(
+        {
+          target: { tabId: tab.id },
+          func: () => window.getSelection().toString(),
+        },
+        (results) => {
+          const selectedWord = results[0]?.result;
+          if (selectedWord) {
+            chrome.tabs.sendMessage(tab.id, {
+              action: "defineWord",
+              word: selectedWord,
+            });
+          }
+        }
+      );
+    }
+  }
+});

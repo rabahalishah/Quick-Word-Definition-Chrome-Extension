@@ -7,9 +7,9 @@ import {
   popUpTemplateHydrator,
 } from "../utils/index.js";
 
-chrome.runtime.onMessage.addListener(function (request) {
+chrome.runtime.onMessage.addListener(async function (request) {
   if (request.action === "defineWord") {
-    let word = request.word;
+    let word = await request.word;
 
     const container = createAndShowPopup();
 
